@@ -55,6 +55,7 @@ class NoteController extends Controller
      */
     public function edit(Note $note): View
     {
+        //todo - implements inertia
         return view('notes.edit', compact('note'));
     }
 
